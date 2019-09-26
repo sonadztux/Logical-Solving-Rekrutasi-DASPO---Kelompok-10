@@ -25,7 +25,7 @@ public class faktor_persekutuan {
         }
     }
 
-    static void cetak_perseutuan(int bilangan1, int bilangan2) {
+    static void cetak_persekutuan(int bilangan1, int bilangan2) {
         System.out.print("\nFaktor persekutuan bilangan "+bilangan1+" dan "+bilangan2+" : ");
         for(int angka = 0; angka < persekutuan.size(); angka++) {
             System.out.print(persekutuan.get(angka)+" ");
@@ -44,6 +44,6 @@ public class faktor_persekutuan {
         cari_faktor(bilangan1);
         System.out.println("");
         cari_faktor(bilangan2);
-        cetak_perseutuan(bilangan1, bilangan2);
+        cetak_persekutuan(bilangan1, bilangan2);
     }
 }
