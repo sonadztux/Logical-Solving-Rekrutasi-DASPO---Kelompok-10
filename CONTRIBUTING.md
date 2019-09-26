@@ -1,7 +1,7 @@
 ## Panduan sebagai Kontributor
 Jika Anda ingin berkontribusi dengan kami, mohon lakukan petunjuk di bawah ini.
 
-### It's Show Time, Let Me Show You lik ^^
+### It's Show Time, Let Me Show You Daks ^^
 1. Fork repository dan pastikan fork repo yang up to date .
 2. Cloning project yang sudah anda fork ke akun anda
 
@@ -9,11 +9,11 @@ Jika Anda ingin berkontribusi dengan kami, mohon lakukan petunjuk di bawah ini.
 
     Contoh menggunakan ssh:
 
-        git clone git@git.puspindes.id:bowo_anakdesa/sidekem-reborn.git
+        git clone git@github.com:sonadztux/Logical-Solving-Rekrutasi-DASPRO-Kelompok-10.git
 
     Contoh menggunakan https:
 
-        git clone http://git.puspindes.id/bowo_anakdesa/sidekem-reborn.git
+        git clone https://github.com/sonadztux/Logical-Solving-Rekrutasi-DASPRO-Kelompok-10.git
         
 3. Untuk mempermudah pengembangan, hendaknya kita menambahkan repository pusat dengan lokal milik kita agar tidak terjadi konflik dengan kontributor lainnya.
 
@@ -21,7 +21,7 @@ Jika Anda ingin berkontribusi dengan kami, mohon lakukan petunjuk di bawah ini.
 
     Contoh:
 
-        git remote add upstream git@git.puspindes.id:bowo_anakdesa/sidekem-reborn.git
+        git remote add upstream git@github.com:sonadztux/Logical-Solving-Rekrutasi-DASPRO-Kelompok-10.git
         
 4. Setelah remote repositori selesai, buatlah branch baru agar tidak merusak history branch utama, dan juga untuk memudahkan racking code, buatlah sesuai dengan issue atau fitur yang ingin dikerjakan.
 
@@ -29,13 +29,13 @@ Jika Anda ingin berkontribusi dengan kami, mohon lakukan petunjuk di bawah ini.
 
     Contoh:
 
-        git checkout -b kemiskinan
+        git checkout -b menu_kemiskinan
 
 5. Di cabang baru ini lah kita akan untuk melakukan perubahan kode, yang nantinya bisa kita push ke repo pusat. Untuk berpindah branch bisa kita gunakan `git checkout <nama-cabang>`, dimana `<nama-cabang>` adalah nama yang anda gunakan pada langkah sebelumnya.
 
     Contoh:
 
-        git checkout kemiskinan
+        git checkout menu_kemiskinan
         
 6. Setelah melakukan perubahan, kita bisa lakukan commit berisi deskripsi singkat tentang perubahan yang anda lakukan. Tetapi jika ada penambahan file, bisa menggunakan perintah `git add <nama-file-baru>`, atau gunakan `git add .` untuk menambahkan semua perubahan yang ada di direktori tersebut secara rekursif. Setelah itu baru bisa kita commit.
 
@@ -56,7 +56,7 @@ Jika Anda ingin berkontribusi dengan kami, mohon lakukan petunjuk di bawah ini.
 
 9. Dengan proses diatas, setidaknya kita telah bisa memastikan bahwa tidak ada konflik dengan repo pusat. Sekarang kita kembali ke branch lokal development kita `adminduk`.
 
-        git checkout kemiskinan
+        git checkout menu_kemiskinan
 
 10. Setelah itu, kita gabungkan cabang tersebut dengan cabang utama, sehingga kontribusi dapat dikirimkan kembali ke repositori pusat dengan perintah `git rebase <nama-branch>`.
 
@@ -64,7 +64,7 @@ Jika Anda ingin berkontribusi dengan kami, mohon lakukan petunjuk di bawah ini.
 
 11. Sebelum push ke repositori pusat, kita akan push ke repository hasil fork di awal pembahasan tadi.
 
-        git push origin kemiskinan
+        git push origin menu_kemiskinan
 
 12. Setelah di push, kita akan melakukan merge request dan membandingkan perubahan yang telah dilakukan terhadap repo pusat. Anda juga bisa menyisipkan pesan untuk memberitahukan developer pemilik repositori tentang apa yang anda lakukan. Setelah yakin terhadap perubahan yang telah anda lakukan, silahkan pilih create merge request 
 
@@ -72,4 +72,4 @@ Jika Anda ingin berkontribusi dengan kami, mohon lakukan petunjuk di bawah ini.
  
 
 ## Terimakasih
-### Alhamdulillah nyong di kanggokake kang !!
+### Alhamdulillah sukses semua daks !!
