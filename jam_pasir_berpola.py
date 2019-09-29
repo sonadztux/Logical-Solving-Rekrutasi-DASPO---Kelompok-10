@@ -1,8 +1,8 @@
 # Program Generate Jam Pasir Berpola
 # dibuat untuk submisi jawaban dari soal Logical Solving 
 # rekrutasi Daspro Laboratory
-# @author sonadztux
-# GitHub: https://github.com/sonadztux
+# @author LumpiaBasah (Kelompok 10)
+# GitHub: https://github.com/sonadztux/Logical-Solving-Rekrutasi-DASPRO-LumpiaBasah
 
 def cetak_jam(ukuran, isi):
     # Mencetak piramid terbalik
