@@ -2,7 +2,7 @@
 Dokumen untuk submisi soal Logical Solving Rekrutasi Daspro Laboratory.
 
 # Anggota Kelompok
-1. Riski Ananda Widiya Putri (Data
+1. Riski Ananda Widiya Putri (Data)
 2. Nanda Arfan Hakim (Software)
 3. Jody Mardika (Software)
 4. Rizalrasyd Dwiselia Ridwanah (Data)
