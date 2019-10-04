@@ -14,10 +14,14 @@ def cari_best_second(daftar_angka):
         # Append angka jika angka belum ada di list angka_unique
         if angka not in angka_unique:
             angka_unique.append(angka)
-    # Descending sorting angka-angka di list angka_unique
-    angka_unique.sort(reverse=True)
-    # Mengembalikan angka terbesar kedua
-    return angka_unique[1]
+    # validasi jika seluruh angka yang diinput user adalah angka yang sama 
+    if len(angka_unique) == 1:
+        return angka_unique[0]
+    else:    
+        # Descending sorting angka-angka di list angka_unique
+        angka_unique.sort(reverse=True)
+        # Mengembalikan angka terbesar kedua
+        return angka_unique[1]
 
 # Perulangan untuk validasi input adalah numeric
 ulang = True
