@@ -52,8 +52,12 @@ def elemen_persamaan(persamaan):
 def cek_input_persamaan(persamaan):
     # mengambil seluruh elemen sebelum = (sama dengan)
     before_equal = persamaan[:persamaan.find('=')]
+    # validasi apabila persamaan yang diinput bukanlah 
+    # persamaan linier satu variabel
+    if before_equal.count('-') > 2 or before_equal.count('+') > 1 or ('-' in before_equal and '+' in before_equal):
+        return print('Format Penulisan Salah')
     # validasi jika terdapat x pas sebelum = maka format salah
-    if before_equal[-1] == 'x':
+    elif before_equal[-1] == 'x':
         # jika terdapat operator (-) di seluruh elemen sebelum (=) 
         # dan indexnya bukanlah 0 maka format inputan salah
         if '-' in before_equal:
